@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive", "Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive\Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive.csproj", "{E9FA752F-E9C2-49FC-9C8D-C62344F7B340}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{569D29C6-9161-4926-8BFB-7F81A97E20F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive", "src\Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive\Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive.csproj", "{374E0D53-86E2-4C5F-A795-0BA3F673BD37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E9FA752F-E9C2-49FC-9C8D-C62344F7B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9FA752F-E9C2-49FC-9C8D-C62344F7B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9FA752F-E9C2-49FC-9C8D-C62344F7B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9FA752F-E9C2-49FC-9C8D-C62344F7B340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374E0D53-86E2-4C5F-A795-0BA3F673BD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374E0D53-86E2-4C5F-A795-0BA3F673BD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374E0D53-86E2-4C5F-A795-0BA3F673BD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374E0D53-86E2-4C5F-A795-0BA3F673BD37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{374E0D53-86E2-4C5F-A795-0BA3F673BD37} = {569D29C6-9161-4926-8BFB-7F81A97E20F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4338FB9-96BE-408F-BFED-778DF3CAABA7}

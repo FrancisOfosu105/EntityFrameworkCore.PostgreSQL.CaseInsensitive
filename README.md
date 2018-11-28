@@ -21,5 +21,5 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
 ```
 
-Available on nuget:
+Available on nuget:  
 https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive/

@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>This is extension for Npgsql.EntityFrameworkCore.PostgreSQL. it's enables filter data in Case Insensitive mode.</Description>
+    <PackageProjectUrl>https://github.com/Rogaliusz/Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Rogaliusz/Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive</RepositoryUrl>
+    <PackageTags>Framework, npgsql, Entity, ef, orm, sql, efcore, Core, entity-framework-core, postgres, postgresql, CaseInsensitive</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rogaliusz</Authors>
+    <Company />
+    <NeutralLanguage></NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>

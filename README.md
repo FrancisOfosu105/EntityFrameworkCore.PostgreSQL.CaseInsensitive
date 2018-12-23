@@ -3,7 +3,7 @@ Case insensitive extension for Npgsql.EntityFrameworkCore.PostgreSQL
 
 ## Definition
 
-CaseInsensitive extension allow searching in Npgsql.EntityFrameworkCore.PostgreSQL like at standard MS SQL Server.
+CaseInsensitive extension allow searching in Npgsql.EntityFrameworkCore.PostgreSQL like a original MS EF
 
 ## How to use
 
@@ -20,3 +20,6 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 }
 
 ```
+
+Available on nuget:  
+https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive/

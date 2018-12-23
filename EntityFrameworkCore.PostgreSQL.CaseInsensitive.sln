@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{569D29C6-9161-4926-8BFB-7F81A97E20F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive", "src\Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive\Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive.csproj", "{374E0D53-86E2-4C5F-A795-0BA3F673BD37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.PostgreSQL.CaseInsensitive", "src\Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive\EntityFrameworkCore.PostgreSQL.CaseInsensitive.csproj", "{374E0D53-86E2-4C5F-A795-0BA3F673BD37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

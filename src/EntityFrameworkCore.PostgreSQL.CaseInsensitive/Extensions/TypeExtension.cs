@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Text;
 
-namespace Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive.Extensions
+namespace EntityFrameworkCore.PostgreSQL.CaseInsensitive.Extensions
 {
     public static class TypeExtension
     {
@@ -21,6 +22,15 @@ namespace Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive.Extensions
                    || type == typeof(ushort)
                    || type == typeof(sbyte)
                    || type == typeof(char);
+        }
+
+        public static bool IsNullableType(this Type type)
+        {
+            var typeInfo = type.GetTypeInfo();
+
+            return !typeInfo.IsValueType
+                   || (typeInfo.IsGenericType
+                       && typeInfo.GetGenericTypeDefinition() == typeof(Nullable<>));
         }
     }
 }

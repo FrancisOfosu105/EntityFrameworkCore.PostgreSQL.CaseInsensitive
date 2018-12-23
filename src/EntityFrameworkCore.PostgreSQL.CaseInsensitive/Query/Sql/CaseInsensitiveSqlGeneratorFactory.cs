@@ -27,6 +27,7 @@ namespace Npgsql.EntityFrameworkCore.PostgreSQL.CaseInsensitive.Query.Sql
             => new CaseInsensitiveSqlGenerator(
                 Dependencies,
                 selectExpression,
-                _npgsqlOptions.ReverseNullOrderingEnabled);
+                _npgsqlOptions.ReverseNullOrderingEnabled,
+                _npgsqlOptions.PostgresVersion);
     }
 }
